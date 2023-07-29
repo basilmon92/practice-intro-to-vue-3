@@ -15,10 +15,10 @@
       <div class="product-display">
         <div class="product-container">
           <div class="product-image">
-            <!-- image goes here -->
+            <img :src="image" alt="socks"/>
           </div>
           <div class="product-info">
-            <h1>{{ product }}</h1>
+            <a :href="url"><h1>{{ product }}</h1></a>
           </div>
         </div>
       </div>
